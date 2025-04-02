@@ -1,0 +1,27 @@
+@import url("./header/header.css");
+@import url("./banner/banner.css");
+@import url("./carrosel/carrosel.css");
+@import url("./card/card.css");
+@import url("./tópicos/topicos.css");
+@import url("./contato/contato.css");
+@import url("./footer/footer.css");
+:root{
+    --cor-de-fundo-branco: #FFFFFF;
+    --cor-de-fundo-cinza: #EBECEE;
+    --cor-degrade: linear-gradient(97.54deg,#002F52 35.49%,#326589 165.37%); 
+    --cor-do-header: #000000;
+    --cor-footer: #858585;
+    --cor-font-footer: #474646;
+    --cor-destaque: #EB9B00;
+    --cor-titulo-prod: #002F52;
+
+    --font-principal: "poppins", serif; 
+    --font-tiulo: "josefin sans", sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo-cinza);
+    font-family: var(--font-principal);
+    font-weight: regular;
+    font-size: 1rem;
+}
